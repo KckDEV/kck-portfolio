@@ -12,9 +12,15 @@
 }
 nav {
     width: 100%;
-    height: auto;
+    height: 50%;
     position: absolute;
+    display:block;
+    background-color: rgba(248, 231, 210,0.1)
+    ;
+    overflow: hidden;
 }
 nav .logo img{
-    width: 100px;
+    width: 25%;
+    margin: 0;
+    padding: 0;
 }
