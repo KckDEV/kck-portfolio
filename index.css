@@ -16,10 +16,12 @@ nav {
     display:block;
     background-color: rgba(40, 110, 216, 0.384);
     border-bottom: 2px solid white;
+   
   
 }
 nav .logo img{
     width: 25%;
+    
 
 }
 nav ul {
@@ -29,7 +31,7 @@ nav ul {
 }
 nav ul li{
     display: inline;
-    margin: 10px 15px;
+    margin: 5px 3px;
     list-style: none;
     
 }
@@ -39,6 +41,7 @@ nav ul li a {
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     line-height: 2px;
+    transition: 1.5s;
 }
 nav ul li a:hover {
     font-size: 30px;
@@ -70,3 +73,36 @@ main section p{
     margin-top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+footer {
+    height: 15vh;
+    margin-top: 20%;
+    background-color: rgba(20, 19, 19, 0.945);
+}
+section ul {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+section ul li {
+    list-style: none;
+}
+section ul li a{
+   text-decoration: none;
+   font-size: 15px;
+   color: aliceblue;
+   padding: 20px 10px;
+   border: .5px solid white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section ul li a .row{
+    width: 100%;
+    height: 15%;
+    background-color: green;
+ }
+
+section ul li a:hover{
+    background-color:white;
+    color: black;
+    overflow: hidden;
+    transition: 1.5s;
+ }
