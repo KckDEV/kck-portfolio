@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .container {
     width: 100%;
     height: auto;
@@ -27,7 +23,7 @@ nav {
     
 }
 nav .logo img{
-    width: 45%;
+    width: 100%;
     
 
 }
