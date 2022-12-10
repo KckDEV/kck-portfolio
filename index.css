@@ -2,7 +2,7 @@
 .container {
     width: 100%;
     height: auto;
-    background: linear-gradient(rgba(10, 37, 110, 0.767),transparent,rgba(10, 37, 110, 0.767)),url(/assets/back4.jpg);
+    background: linear-gradient(rgba(10, 37, 110, 0.767),rgba(10, 37, 110, 0.767),transparent,rgba(10, 37, 110, 0.767),rgba(10, 37, 110, 0.767)),url(/assets/back2.png);
     background-position: center;
     background-size: cover;
 }
@@ -23,7 +23,7 @@ nav {
     
 }
 nav .logo img{
-    width: 100%;
+    width: 25%;
     
 
 }
@@ -62,7 +62,7 @@ nav .moto {
     color: transparent;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: px;
+    font-size: 66px;
     -webkit-text-stroke: .5px white;
 }
 
