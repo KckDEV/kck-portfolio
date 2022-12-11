@@ -5,6 +5,7 @@
     background: linear-gradient(rgba(10, 37, 110, 0.767),rgba(10, 37, 110, 0.767),transparent,rgba(10, 37, 110, 0.767),rgba(10, 37, 110, 0.767)),url(/assets/back2.png);
     background-position: center;
     background-size: cover;
+
 }
 nav {
     width: 100%;
@@ -129,7 +130,7 @@ section ul li a:hover{
     .container {
         width: 100%;
         height: auto;
-        background: linear-gradient(rgba(10, 37, 110, 0.767),transparent,rgba(10, 37, 110, 0.767)),url(/assets/back4.jpg);
+        background: linear-gradient(rgba(10, 37, 110, 0.767),rgba(10, 37, 110, 0.767),transparent,rgba(10, 37, 110, 0.767),rgba(10, 37, 110, 0.767)),url(/assets/back2.png);
         background-position: center;
         background-size: cover;
     }
