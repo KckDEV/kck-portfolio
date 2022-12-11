@@ -19,7 +19,7 @@
 }
 nav {
   width: 100%;
-  height: auto;
+  height: 45vh;
   display: block;
   animation-name: color;
   animation-duration: 5s;
@@ -151,7 +151,7 @@ section ul li a:hover {
     box-sizing: border-box;
   }
   .container {
-    width: auto;
+    width:100%;
     height: auto;
     background: linear-gradient(
         rgba(10, 37, 110, 0.767),
