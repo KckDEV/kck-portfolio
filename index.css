@@ -220,7 +220,7 @@ section ul li a:hover {
   }
   
   footer {
-    height: auto;
+    height: 35vh;
     margin-top: 20%;
     background-color: rgba(20, 19, 19, 0.945);
   }
