@@ -49,11 +49,12 @@ nav {
 }
 nav .logo img {
   width: 25%;
-  padding: 0;
-  margin: 0;
+  position: absolute;
+  left: -50px;
 }
 nav ul {
   position: absolute;
+  margin-top: 5%;
   top: 5%;
   right: 10%;
 }
@@ -68,16 +69,12 @@ nav ul li a {
   text-decoration: none;
   color: aliceblue;
   font-family: "Courier New", Courier, monospace;
-  line-height: 2px;
-  transition: 1.5s;
+  line-height: 5px;
 }
-
 nav ul li a:hover {
-  font-size: 35px;
   text-decoration: underline;
-  color: black;
-  margin: 10px 20px;
-  font-family: "Courier New", Courier, monospace;
+  color: blue;
+
 }
 
 nav .moto {
@@ -109,7 +106,7 @@ main .one h2 {
 }
 main section p {
   font-size: larger;
-  color: whitesmoke;
+  color: black;
   margin-left: 10px;
   margin-top: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -188,7 +185,6 @@ section ul li a:hover {
     color: transparent;
     position: absolute;
     top: 200px;
-
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 20px;
     -webkit-text-stroke: 1px white;
